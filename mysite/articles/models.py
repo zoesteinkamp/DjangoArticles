@@ -4,16 +4,16 @@ import uuid
 
 
 
-class TagType(models.Model):
-    slug = models.CharField(max_length=100)
+class Tagtype(models.Model):
+    slug = models.CharField(max_length=100,primary_key=True)
     name = models.CharField(max_length=100)
 
 class Link(models.Model):
     content = models.URLField(max_length=200)
-    self = models.URLField(max_length=200)
+    linkself = models.URLField(max_length=200)
 
 class ArticleLink(models.Model):
-    self = models.URLField(max_length=100)
+    articlelinkself = models.URLField(max_length=100)
     presentation = models.URLField(max_length=100)
     content_sequence = models.URLField(max_length=100)
 
@@ -48,9 +48,9 @@ class Author(models.Model):
     links = models.OneToOneField(Link,on_delete=models.CASCADE)
     fool_uid = models.IntegerField()
     primary = models.BooleanField(default=True)
-    twitter_username = models.CharField(max_length=100)
+    twitter_username = models.CharField(max_length=100,null=True, blank=True)
     small_avatar_url = models.CharField(max_length=100)
-    long_bio = models.TextField()
+    long_bio = models.TextField(null=True, blank=True)
     first_name = models.CharField(max_length=100)
     byline = models.CharField(max_length=100)
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -77,8 +77,8 @@ class Tag(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     slug = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
-    tag_type = models.OneToOneField(TagType,on_delete=models.CASCADE)
-    links = models.OneToOneField(Link,on_delete=models.CASCADE)
+    tag_type = models.ManyToManyField(Tagtype)
+    links = models.OneToOneField(Link,on_delete=models.CASCADE, null=True, blank=True)
 
 class Article(models.Model):
     disclosure = models.TextField()
@@ -89,13 +89,13 @@ class Article(models.Model):
     publish_at = models.DateTimeField()
     path = models.CharField(max_length=100)
     static_page = models.BooleanField(default=False)
-    author_override = models.CharField(max_length=100) # not sure either
+    author_override = models.CharField(max_length=100,null=True, blank=True) # not sure either
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     created = models.DateTimeField()
     headline = models.CharField(max_length=100)
     modified = models.DateTimeField()
     product_id = models.IntegerField(default=0)
-    video = models.CharField(max_length=100)
+    video = models.CharField(max_length=100,null=True, blank=True)
     byline = models.CharField(max_length=100)
     insturments = models.ManyToManyField(Instrument)
     authors = models.ManyToManyField(Author)

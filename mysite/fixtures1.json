@@ -1,0 +1,665 @@
+[
+  {
+      "model": "articles.link",
+      "pk": 1,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=203781",
+        "linkself": "http://api.fool.com/api/insturments/203781"
+      }
+    },
+  {
+    "model": "articles.link",
+    "pk": 2,
+    "fields": {
+      "content": "http://api.fool.com/api/content?primary_author_id=1928",
+      "linkself": "http://api.fool.com/api/authors/1928"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 3,
+    "fields": {
+      "content": "http://api.fool.com/api/content?bureau_uuid=ad1e57a4-06a7-11e3-a4aa-0050569d4333",
+      "linkself": "http://api.fool.com/api/bureaus/ad1e57a4-06a7-11e3-a4aa-0050569d4333"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 4,
+    "fields": {
+      "content": "http://api.fool.com/api/content?collection_uuid=bb3ea16c-1c58-11e6-9006-0050569d4be0",
+      "linkself": "http://api.fool.com/api/collections/bb3ea16c-1c58-11e6-9006-0050569d4be0"
+    }
+  },
+  {
+    "model": "articles.tagtype",
+    "pk": 1,
+    "fields": {
+      "name": "Syndication Partner",
+      "slug": "syndication-partner"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 5,
+    "fields": {
+      "content": "http://api.fool.com/api/content?tag_uuids=78aa4c44-d4f4-11e5-86ff-0050569d32b9",
+      "linkself": "http://api.fool.com/api/tags/78aa4c44-d4f4-11e5-86ff-0050569d32b9"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 6,
+    "fields": {
+      "content": "http://api.fool.com/api/content?tag_uuids=342ec714-9adf-11e6-bdf0-0050569d32b9",
+      "linkself": "http://api.fool.com/api/tags/342ec714-9adf-11e6-bdf0-0050569d32b9"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 7,
+    "fields": {
+      "content": "http://api.fool.com/api/content?tag_uuids=603e544a-1f53-11e5-a69e-0050569d4be0",
+      "linkself": "http://api.fool.com/api/tags/603e544a-1f53-11e5-a69e-0050569d4be0"
+    }
+  },
+  {
+    "model": "articles.image",
+    "pk": 1,
+    "fields": {
+      "name": "Goldman Sachs Tower",
+      "created": "2017-11-10T00:02:01.068582Z",
+      "url": "https://g.foolcdn.com/editorial/images/463175/goldman-sachs-tower.jpg",
+      "image": "https://g.foolcdn.com/editorial/images/463175/goldman-sachs-tower.jpg",
+      "modified": "2017-11-10T00:02:04.950918Z",
+      "featured": true,
+      "uuid": "6069e632-c5aa-11e7-982d-0050569d32b9"
+    }
+  },
+
+  {
+    "model": "articles.pitch",
+    "pk": 1,
+    "fields": {
+      "text": "<p><strong>10 stocks we like better than Goldman Sachs</strong><br />When investing geniuses David and Tom Gardner have a stock tip, it can pay to listen. After all, the newsletter they have run for over a decade, <em>Motley Fool Stock Advisor</em>, has tripled the market.*</p>\n<p>David and Tom just revealed what they believe are the <a href=\"http://infotron.fool.com/infotrack/click?url=https%3A%2F%2Fwww.fool.com%2Fmms%2Fmark%2Fe-foolcom-sa-bbn-static%3Faid%3D8867%26source%3Disaeditxt0010449%26ftm_cam%3Dsa-bbn-evergreen%26ftm_pit%3D6312%26ftm_veh%3Dbbn_article_pitch&amp;impression=d26574da-7a6a-41ac-a6dc-6537114ce8ce\"><strong>10 best stocks</strong></a> for investors to buy right now... and Goldman Sachs wasn't one of them! That's right -- they think these 10 stocks are even better buys.</p>\n<p><a href=\"http://infotron.fool.com/infotrack/click?url=https%3A%2F%2Fwww.fool.com%2Fmms%2Fmark%2Fe-foolcom-sa-bbn-static%3Faid%3D8867%26source%3Disaeditxt0010449%26ftm_cam%3Dsa-bbn-evergreen%26ftm_pit%3D6312%26ftm_veh%3Dbbn_article_pitch&amp;impression=d26574da-7a6a-41ac-a6dc-6537114ce8ce\" class=\"ticker_pitch\"><strong>Click here</strong></a> to learn about these picks!</p>\n<p><em>*Stock Advisor returns as of November 6, 2017</em></p>",
+      "id": 6115
+    }
+  },
+
+  {
+    "model": "articles.articlelink",
+    "pk": 1,
+    "fields": {
+      "articlelinkself": "http://api.fool.com/api/content/f52c15f2-c5a9-11e7-8889-0050569d4be0",
+      "presentation": "https://www.fool.com/investing/2017/11/10/is-goldman-sachs-stock-worth-a-look.aspx",
+      "content_sequence": "http://api.fool.com/api/content-sequences/containing/f52c15f2-c5a9-11e7-8889-0050569d4be0"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 41,
+    "fields": {
+      "content": "http://api.fool.com/api/content?bureau_uuid=ad1cdd02-06a7-11e3-a4aa-0050569d4333",
+      "linkself": "http://api.fool.com/api/bureaus/ad1cdd02-06a7-11e3-a4aa-0050569d4333"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 40,
+    "fields": {
+      "content": "http://api.fool.com/api/content?instrument_ids=205140",
+      "linkself": "http://api.fool.com/api/insturments/205140"
+    }
+  },
+  {
+    "model": "articles.image",
+    "pk": 14,
+    "fields": {
+      "name": "Pearson_logo",
+      "created": "2017-11-08T23:00:59.325117Z",
+      "url": "https://g.foolcdn.com/editorial/images/462204/pearson_logo.png",
+      "image": "https://g.foolcdn.com/editorial/images/462204/pearson_logo.png",
+      "modified": "2017-11-08T23:01:19.179241Z",
+      "featured": true,
+      "uuid": "af6eded6-c4d8-11e7-b8f2-0050569d4be0"
+    }
+  },
+
+  {
+    "model": "articles.articlelink",
+    "pk": 10,
+    "fields": {
+      "articlelinkself": "http://api.fool.com/api/content/98122758-c09f-11e7-8978-0050569d32b9",
+      "presentation": "https://www.fool.com/investing/2017/11/10/why-pearson-plc-stock-gained-14-in-october.aspx",
+      "content_sequence": "http://api.fool.com/api/content-sequences/containing/98122758-c09f-11e7-8978-0050569d32b9"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 39,
+    "fields": {
+      "content": "http://api.fool.com/api/content?instrument_ids=204622",
+      "linkself": "http://api.fool.com/api/insturments/204622"
+    }
+  },
+  {
+    "model": "articles.image",
+    "pk": 13,
+    "fields": {
+      "name": "ncr",
+      "created": "2017-11-08T23:34:47.782411Z",
+      "url": "https://g.foolcdn.com/editorial/images/462988/ncr.jpg",
+      "image": "https://g.foolcdn.com/editorial/images/462988/ncr.jpg",
+      "modified": "2017-11-08T23:34:53.271371Z",
+      "featured": true,
+      "uuid": "687c0f9e-c4dd-11e7-b1b1-0050569d32b9"
+    }
+  },
+
+  {
+    "model": "articles.articlelink",
+    "pk": 9,
+    "fields": {
+      "articlelinkself": "http://api.fool.com/api/content/54199a62-c4dd-11e7-982d-0050569d32b9",
+      "presentation": "https://www.fool.com/investing/2017/11/10/why-ncr-corporation-stock-lost-145-in-october.aspx",
+      "content_sequence": "http://api.fool.com/api/content-sequences/containing/54199a62-c4dd-11e7-982d-0050569d32b9"
+    }
+  },
+  {
+    "model": "articles.link",
+    "pk": 38,
+    "fields": {
+      "content": "http://api.fool.com/api/content?primary_author_id=6956",
+      "linkself": "http://api.fool.com/api/authors/6956"
+    }
+  },
+
+    {
+      "model": "articles.author",
+      "pk": 7,
+      "fields": {
+        "username": "TMFNoons",
+        "last_name": "Noonan",
+        "fool_uid": 1817250154,
+        "primary": true,
+        "twitter_username": null,
+        "small_avatar_url": "http://g.foolcdn.com/avatar/1817250154/small.ashx",
+        "long_bio": null,
+        "first_name": "Keith",
+        "byline": "Keith Noonan",
+        "uuid": "4c6ec3e0-0a8e-11e3-b1dc-0050569d4333",
+        "contributor_type": "individual",
+        "large_avatar_url": "http://g.foolcdn.com/avatar/1817250154/large.ashx",
+        "short_bio": "Keith Noonan covers technology, entertainment, and other fields. You can follow him on Twitter by clicking the button below:\n\n<a href=\"https://twitter.com/TweethNoonan\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @TweethNoonan</a>\n\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n",
+        "author_id": 6956,
+        "email": "keithbnoonan@gmail.com",
+        "links": 38
+      }
+    },
+    {
+      "model": "articles.link",
+      "pk": 37,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=336663",
+        "linkself": "http://api.fool.com/api/insturments/336663"
+      }
+    },
+    {
+      "model": "articles.image",
+      "pk": 12,
+      "fields": {
+        "name": "atlassian",
+        "created": "2017-11-08T23:17:19.310850Z",
+        "url": "https://g.foolcdn.com/editorial/images/462986/atlassian.png",
+        "image": "https://g.foolcdn.com/editorial/images/462986/atlassian.png",
+        "modified": "2017-11-08T23:17:28.893196Z",
+        "featured": true,
+        "uuid": "f78c9f08-c4da-11e7-a496-0050569d4be0"
+      }
+    },
+
+    {
+      "model": "articles.articlelink",
+      "pk": 8,
+      "fields": {
+        "articlelinkself": "http://api.fool.com/api/content/d6397ee8-c4da-11e7-a496-0050569d4be0",
+        "presentation": "https://www.fool.com/investing/2017/11/10/why-atlassian-corporation-plc-gained-376-in-octobe.aspx",
+        "content_sequence": "http://api.fool.com/api/content-sequences/containing/d6397ee8-c4da-11e7-a496-0050569d4be0"
+      }
+    },
+    {
+      "model": "articles.link",
+      "pk": 36,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=202686",
+        "linkself": "http://api.fool.com/api/insturments/202686"
+      }
+    },
+    {
+      "model": "articles.image",
+      "pk": 11,
+      "fields": {
+        "name": "GettyImages-497754124",
+        "created": "2017-11-10T13:26:14.047041Z",
+        "url": "https://g.foolcdn.com/editorial/images/463230/gettyimages-497754124.jpg",
+        "image": "https://g.foolcdn.com/editorial/images/463230/gettyimages-497754124.jpg",
+        "modified": "2017-11-10T13:26:18.931365Z",
+        "featured": true,
+        "uuid": "b96db6a8-c61a-11e7-9416-0050569d4be0"
+      }
+    },
+
+    {
+      "model": "articles.articlelink",
+      "pk": 7,
+      "fields": {
+        "articlelinkself": "http://api.fool.com/api/content/5675dc56-c61a-11e7-8fd5-0050569d32b9",
+        "presentation": "https://www.fool.com/investing/2017/11/10/why-skyworks-solutions-stock-jumped-117-in-october.aspx",
+        "content_sequence": "http://api.fool.com/api/content-sequences/containing/5675dc56-c61a-11e7-8fd5-0050569d32b9"
+      }
+    },
+    {
+      "model": "articles.link",
+      "pk": 33,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=222667",
+        "linkself": "http://api.fool.com/api/insturments/222667"
+      }
+    },
+    {
+      "model": "articles.link",
+      "pk": 34,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=334884",
+        "linkself": "http://api.fool.com/api/insturments/334884"
+      }
+    },
+    {
+      "model": "articles.link",
+      "pk": 35,
+      "fields": {
+        "content": "http://api.fool.com/api/content?instrument_ids=204149",
+        "linkself": "http://api.fool.com/api/insturments/204149"
+      }
+    },
+    {
+        "model": "articles.link",
+        "pk": 31,
+        "fields": {
+          "content": "http://api.fool.com/api/content?instrument_ids=205616",
+          "linkself": "http://api.fool.com/api/insturments/205616"
+        }
+      },
+      {
+        "model": "articles.link",
+        "pk": 32,
+        "fields": {
+          "content": "http://api.fool.com/api/content?instrument_ids=202994",
+          "linkself": "http://api.fool.com/api/insturments/202994"
+        }
+      },
+      {
+        "model": "articles.link",
+        "pk": 30,
+        "fields": {
+          "content": "http://api.fool.com/api/content?primary_author_id=4997",
+          "linkself": "http://api.fool.com/api/authors/4997"
+        }
+      },
+      {
+        "model": "articles.image",
+        "pk": 9,
+        "fields": {
+          "name": "7th-Gen-Intel-Core-U-series-with-Iris-Plus-front",
+          "created": "2017-11-08T08:31:55.713304Z",
+          "url": "https://g.foolcdn.com/editorial/images/462838/7th-gen-intel-core-u-series-with-iris-plus-front.jpg",
+          "image": "https://g.foolcdn.com/editorial/images/462838/7th-gen-intel-core-u-series-with-iris-plus-front.jpg",
+          "modified": "2017-11-08T08:31:55.719355Z",
+          "featured": false,
+          "uuid": "476a98da-c45f-11e7-b8f2-0050569d4be0"
+        }
+      },
+      {
+        "model": "articles.image",
+        "pk": 10,
+        "fields": {
+          "name": "8th Gen Intel Core S-series Chip",
+          "created": "2017-11-08T08:32:15.249363Z",
+          "url": "https://g.foolcdn.com/editorial/images/462838/8th-gen-intel-core-s-series-chip.jpg",
+          "image": "https://g.foolcdn.com/editorial/images/462838/8th-gen-intel-core-s-series-chip.jpg",
+          "modified": "2017-11-08T08:32:38.187394Z",
+          "featured": true,
+          "uuid": "530f58ec-c45f-11e7-8a5a-0050569d4be0"
+        }
+      },
+
+      {
+        "model": "articles.articlelink",
+        "pk": 6,
+        "fields": {
+          "articlelinkself": "http://api.fool.com/api/content/f1a541a2-c45e-11e7-9008-0050569d4be0",
+          "presentation": "https://www.fool.com/investing/2017/11/10/3-takeaways-from-intel-corps-10-q-filing.aspx",
+          "content_sequence": "http://api.fool.com/api/content-sequences/containing/f1a541a2-c45e-11e7-9008-0050569d4be0"
+        }
+      },
+      {
+        "model": "articles.link",
+        "pk": 29,
+        "fields": {
+          "content": "http://api.fool.com/api/content?primary_author_id=2065",
+          "linkself": "http://api.fool.com/api/authors/2065"
+        }
+      },
+      {
+        "model": "articles.image",
+        "pk": 7,
+        "fields": {
+          "name": "GettyImages-656083472",
+          "created": "2017-11-08T13:37:58.376682Z",
+          "url": "https://g.foolcdn.com/editorial/images/462767/gettyimages-656083472.jpg",
+          "image": "https://g.foolcdn.com/editorial/images/462767/gettyimages-656083472.jpg",
+          "modified": "2017-11-08T13:38:00.856966Z",
+          "featured": true,
+          "uuid": "086ae060-c48a-11e7-8788-0050569d32b9"
+        }
+      },
+      {
+        "model": "articles.image",
+        "pk": 8,
+        "fields": {
+          "name": "nvidia-drive-px-pegasus",
+          "created": "2017-11-07T21:52:30.210727Z",
+          "url": "https://g.foolcdn.com/editorial/images/462767/nvidia-drive-px-pegasus.png",
+          "image": "https://g.foolcdn.com/editorial/images/462767/nvidia-drive-px-pegasus.png",
+          "modified": "2017-11-07T21:52:30.220841Z",
+          "featured": false,
+          "uuid": "f3cc1a5e-c405-11e7-a19c-0050569d32b9"
+        }
+      },
+
+      {
+        "model": "articles.articlelink",
+        "pk": 5,
+        "fields": {
+          "articlelinkself": "http://api.fool.com/api/content/9fc68f92-c3fc-11e7-8464-0050569d4be0",
+          "presentation": "https://www.fool.com/investing/2017/11/10/if-you-love-artificial-intelligence-you-should-che.aspx",
+          "content_sequence": "http://api.fool.com/api/content-sequences/containing/9fc68f92-c3fc-11e7-8464-0050569d4be0"
+        }
+      },
+      {
+          "model": "articles.link",
+          "pk": 26,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=205771",
+            "linkself": "http://api.fool.com/api/insturments/205771"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 27,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=203768",
+            "linkself": "http://api.fool.com/api/insturments/203768"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 28,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=288965",
+            "linkself": "http://api.fool.com/api/insturments/288965"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 22,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=204036",
+            "linkself": "http://api.fool.com/api/insturments/204036"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 23,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=275270",
+            "linkself": "http://api.fool.com/api/insturments/275270"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 24,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=204070",
+            "linkself": "http://api.fool.com/api/insturments/204070"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 25,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=224257",
+            "linkself": "http://api.fool.com/api/insturments/224257"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 19,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=204770",
+            "linkself": "http://api.fool.com/api/insturments/204770"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 20,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=202816",
+            "linkself": "http://api.fool.com/api/insturments/202816"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 21,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=204577",
+            "linkself": "http://api.fool.com/api/insturments/204577"
+          }
+        },
+
+        {
+          "model": "articles.link",
+          "pk": 18,
+          "fields": {
+            "content": "http://api.fool.com/api/content?tag_uuids=89038dfe-5db3-11e3-8416-0050569d32b9",
+            "linkself": "http://api.fool.com/api/tags/89038dfe-5db3-11e3-8416-0050569d32b9"
+          }
+        },
+        {
+          "model": "articles.tagtype",
+          "pk": 2,
+          "fields": {
+            "name": "Personalized Email",
+            "slug": "personalized-email"
+          }
+        },
+        {
+          "model": "articles.image",
+          "pk": 6,
+          "fields": {
+            "name": "gold_bar_2",
+            "created": "2017-11-10T12:50:41.599624Z",
+            "url": "https://g.foolcdn.com/editorial/images/463206/gold_bar_2.jpg",
+            "image": "https://g.foolcdn.com/editorial/images/463206/gold_bar_2.jpg",
+            "modified": "2017-11-10T12:50:48.343650Z",
+            "featured": true,
+            "uuid": "c2647b34-c615-11e7-a19c-0050569d32b9"
+          }
+        },
+
+        {
+          "model": "articles.articlelink",
+          "pk": 4,
+          "fields": {
+            "articlelinkself": "http://api.fool.com/api/content/a7acd8c8-c5ce-11e7-9fa6-0050569d4be0",
+            "presentation": "https://www.fool.com/investing/2017/11/10/heres-why-shares-of-barrrick-gold-dropped-7-in-oct.aspx",
+            "content_sequence": "http://api.fool.com/api/content-sequences/containing/a7acd8c8-c5ce-11e7-9fa6-0050569d4be0"
+          }
+        },
+
+        {
+          "model": "articles.link",
+          "pk": 14,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=206868",
+            "linkself": "http://api.fool.com/api/insturments/206868"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 15,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=208812",
+            "linkself": "http://api.fool.com/api/insturments/208812"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 17,
+          "fields": {
+            "content": "http://api.fool.com/api/content?primary_author_id=2420",
+            "linkself": "http://api.fool.com/api/authors/2420"
+          }
+        },
+
+        {
+          "model": "articles.link",
+          "pk": 14,
+          "fields": {
+            "content": "http://api.fool.com/api/content?bureau_uuid=ad1dbd9e-06a7-11e3-a4aa-0050569d4333",
+            "linkself": "http://api.fool.com/api/bureaus/ad1dbd9e-06a7-11e3-a4aa-0050569d4333"
+          }
+        },
+        {
+          "model": "articles.image",
+          "pk": 3,
+          "fields": {
+            "name": "NGG op profit",
+            "created": "2017-11-10T09:08:22.172230Z",
+            "url": "https://g.foolcdn.com/editorial/images/463216/ngg-op-profit.png",
+            "image": "https://g.foolcdn.com/editorial/images/463216/ngg-op-profit.png",
+            "modified": "2017-11-10T09:08:22.180491Z",
+            "featured": false,
+            "uuid": "b379965a-c5f6-11e7-a612-0050569d4be0"
+          }
+        },
+        {
+          "model": "articles.image",
+          "pk": 4,
+          "fields": {
+            "name": "NGG op profit",
+            "created": "2017-11-10T09:44:56.920646Z",
+            "url": "https://g.foolcdn.com/editorial/images/463216/ngg-op-profit_sSMSeHK.png",
+            "image": "https://g.foolcdn.com/editorial/images/463216/ngg-op-profit_sSMSeHK.png",
+            "modified": "2017-11-10T09:44:56.928728Z",
+            "featured": false,
+            "uuid": "cfa596ee-c5fb-11e7-8a5a-0050569d4be0"
+          }
+        },
+        {
+          "model": "articles.image",
+          "pk": 5,
+          "fields": {
+            "name": "transmission lines 3",
+            "created": "2017-11-10T10:17:15.310984Z",
+            "url": "https://g.foolcdn.com/editorial/images/463216/transmission-lines-3.jpg",
+            "image": "https://g.foolcdn.com/editorial/images/463216/transmission-lines-3.jpg",
+            "modified": "2017-11-10T10:21:20.685009Z",
+            "featured": true,
+            "uuid": "53047a2e-c600-11e7-b7d0-0050569d32b9"
+          }
+        },
+
+        {
+          "model": "articles.articlelink",
+          "pk": 3,
+          "fields": {
+            "articlelinkself": "http://api.fool.com/api/content/9059ec08-c5f4-11e7-bec4-0050569d32b9",
+            "presentation": "https://www.fool.com/investing/2017/11/10/national-grids-earnings-underwhelm-but-there-are-s.aspx",
+            "content_sequence": "http://api.fool.com/api/content-sequences/containing/9059ec08-c5f4-11e7-bec4-0050569d32b9"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 12,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=207292",
+            "linkself": "http://api.fool.com/api/insturments/207292"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 13,
+          "fields": {
+            "content": "http://api.fool.com/api/content?primary_author_id=2067",
+            "linkself": "http://api.fool.com/api/authors/2067"
+          }
+        },
+
+        {
+          "model": "articles.link",
+          "pk": 11,
+          "fields": {
+            "content": "http://api.fool.com/api/content?tag_uuids=9b78295a-30ab-11e5-911e-0050569d32b9",
+            "linkself": "http://api.fool.com/api/tags/9b78295a-30ab-11e5-911e-0050569d32b9"
+          }
+        },
+        {
+          "model": "articles.image",
+          "pk": 2,
+          "fields": {
+            "name": "51job",
+            "created": "2017-11-10T01:37:16.227507Z",
+            "url": "https://g.foolcdn.com/editorial/images/463186/51job.jpg",
+            "image": "https://g.foolcdn.com/editorial/images/463186/51job.jpg",
+            "modified": "2017-11-10T01:37:20.709380Z",
+            "featured": true,
+            "uuid": "aee9e304-c5b7-11e7-814a-0050569d4be0"
+          }
+        },
+
+        {
+          "model": "articles.articlelink",
+          "pk": 2,
+          "fields": {
+            "articlelinkself": "http://api.fool.com/api/content/a47ffbac-c5b6-11e7-be80-0050569d32b9",
+            "presentation": "https://www.fool.com/investing/2017/11/10/51job-accelerates-to-get-the-job-done.aspx",
+            "content_sequence": "http://api.fool.com/api/content-sequences/containing/a47ffbac-c5b6-11e7-be80-0050569d32b9"
+          }
+        },
+
+        {
+          "model": "articles.link",
+          "pk": 8,
+          "fields": {
+            "content": "http://api.fool.com/api/content?instrument_ids=208933",
+            "linkself": "http://api.fool.com/api/insturments/208933"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 9,
+          "fields": {
+            "content": "http://api.fool.com/api/content?primary_author_id=1280",
+            "linkself": "http://api.fool.com/api/authors/1280"
+          }
+        },
+        {
+          "model": "articles.link",
+          "pk": 10,
+          "fields": {
+            "content": "http://api.fool.com/api/content?bureau_uuid=ad21ea72-06a7-11e3-a4aa-0050569d4333",
+            "linkself": "http://api.fool.com/api/bureaus/ad21ea72-06a7-11e3-a4aa-0050569d4333"
+          }
+        }
+]

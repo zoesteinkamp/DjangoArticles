@@ -1,0 +1,665 @@
+[        {
+          "model": "articles.instrument",
+          "pk": 1,
+          "fields": {
+            "instrument_id": 203781,
+            "asset_class": "Stock",
+            "exchange": "NYSE",
+            "symbol": "GS",
+            "primary": true,
+            "seo_name": "goldman-sachs",
+            "company_name": "Goldman Sachs",
+            "syndicate": true,
+            "valid": true,
+            "links": 1
+          }
+        },
+
+        {
+          "model": "articles.author",
+          "pk": 1,
+          "fields": {
+            "username": "JohnMaxfield37",
+            "last_name": "Maxfield",
+            "fool_uid": 1593347483,
+            "primary": true,
+            "twitter_username": null,
+            "small_avatar_url": "http://g.foolcdn.com/avatar/1593347483/small.ashx",
+            "long_bio": null,
+            "first_name": "John",
+            "byline": "John Maxfield",
+            "uuid": "41f68dbc-0a8e-11e3-b1dc-0050569d4333",
+            "contributor_type": "individual",
+            "large_avatar_url": "http://g.foolcdn.com/avatar/1593347483/large.ashx",
+            "short_bio": "I write about banks, trying my best to balance the good and the bad.",
+            "author_id": 1928,
+            "email": "jmaxfield@fool.com",
+            "links": 2
+          }
+        },
+
+        {
+          "model": "articles.bureau",
+          "pk": 1,
+          "fields": {
+            "uuid": "ad1e57a4-06a7-11e3-a4aa-0050569d4333",
+            "slug": "usmf-financials",
+            "name": "Financials",
+            "links": 3
+          }
+        },
+
+
+
+        {
+          "model": "articles.collection",
+          "pk": 1,
+          "fields": {
+            "path": "/investing",
+            "uuid": "bb3ea16c-1c58-11e6-9006-0050569d4be0",
+            "slug": "investing",
+            "name": "/investing",
+            "links": 4
+          }
+        },
+
+
+        {
+          "model": "articles.tag",
+          "pk": 1,
+          "fields": {
+            "uuid": "78aa4c44-d4f4-11e5-86ff-0050569d32b9",
+            "slug": "msn",
+            "name": "MSN",
+            "links": 5
+          }
+        },
+
+
+
+
+        {
+          "model": "articles.tag",
+          "pk": 2,
+          "fields": {
+            "uuid": "342ec714-9adf-11e6-bdf0-0050569d32b9",
+            "slug": "default-partners",
+            "name": "Default Partners",
+            "links": 6
+          }
+        },
+        {
+  "model": "articles.tag",
+  "pk": 3,
+  "fields": {
+    "uuid": "603e544a-1f53-11e5-a69e-0050569d4be0",
+    "slug": "yahoo-money",
+    "name": "Yahoo",
+    "links": 7
+  }
+},
+{
+  "model": "articles.bureau",
+  "pk": 4,
+  "fields": {
+    "uuid": "ad1cdd02-06a7-11e3-a4aa-0050569d4333",
+    "slug": "usmf-consumer-goods",
+    "name": "Consumer Goods",
+    "links": 41
+  }
+},
+{
+  "model": "articles.instrument",
+  "pk": 24,
+  "fields": {
+    "instrument_id": 205140,
+    "asset_class": "Stock",
+    "exchange": "NYSE",
+    "symbol": "PSO",
+    "primary": true,
+    "seo_name": "pearson",
+    "company_name": "Pearson",
+    "syndicate": true,
+    "valid": true,
+    "links": 40
+  }
+},
+{
+  "model": "articles.instrument",
+  "pk": 23,
+  "fields": {
+    "instrument_id": 204622,
+    "asset_class": "Stock",
+    "exchange": "NYSE",
+    "symbol": "NCR",
+    "primary": true,
+    "seo_name": "ncr",
+    "company_name": "NCR",
+    "syndicate": true,
+    "valid": true,
+    "links": 39
+  }
+},
+{
+  "model": "articles.instrument",
+  "pk": 22,
+  "fields": {
+    "instrument_id": 336663,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "TEAM",
+    "primary": true,
+    "seo_name": "atlassian",
+    "company_name": "Atlassian",
+    "syndicate": true,
+    "valid": true,
+    "links": 37
+  }
+},
+{
+  "model": "articles.instrument",
+  "pk": 16,
+  "fields": {
+    "instrument_id": 205616,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "SWKS",
+    "primary": true,
+    "seo_name": "skyworks-solutions",
+    "company_name": "Skyworks Solutions",
+    "syndicate": true,
+    "valid": true,
+    "links": 31
+  }
+},
+
+
+{
+  "model": "articles.instrument",
+  "pk": 17,
+  "fields": {
+    "instrument_id": 202994,
+    "asset_class": "Stock",
+    "exchange": "UNKNOWN",
+    "symbol": "BRCM.DL",
+    "primary": false,
+    "seo_name": "broadcom",
+    "company_name": "Broadcom",
+    "syndicate": false,
+    "valid": true,
+    "links": 32
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 18,
+  "fields": {
+    "instrument_id": 222667,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "AVGO",
+    "primary": false,
+    "seo_name": "broadcom-ltd",
+    "company_name": "Broadcom Ltd",
+    "syndicate": false,
+    "valid": true,
+    "links": 33
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 19,
+  "fields": {
+    "instrument_id": 334884,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "QRVO",
+    "primary": false,
+    "seo_name": "qorvo",
+    "company_name": "Qorvo",
+    "syndicate": false,
+    "valid": true,
+    "links": 34
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 20,
+  "fields": {
+    "instrument_id": 204149,
+    "asset_class": "Stock",
+    "exchange": "NYSE",
+    "symbol": "JPM",
+    "primary": false,
+    "seo_name": "jpmorgan-chase",
+    "company_name": "JPMorgan Chase",
+    "syndicate": false,
+    "valid": true,
+    "links": 35
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 21,
+  "fields": {
+    "instrument_id": 202686,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "AAPL",
+    "primary": false,
+    "seo_name": "apple",
+    "company_name": "Apple",
+    "syndicate": false,
+    "valid": true,
+    "links": 36
+  }
+},
+{
+  "model": "articles.author",
+  "pk": 6,
+  "fields": {
+    "username": "TMFChipFool",
+    "last_name": "Eassa",
+    "fool_uid": 1741565332,
+    "primary": true,
+    "twitter_username": null,
+    "small_avatar_url": "http://g.foolcdn.com/avatar/1741565332/small.ashx",
+    "long_bio": "Ashraf Eassa is a technology specialist with The Motley Fool. He covers primarily semiconductor/chip stocks, but you'll often see him commenting on broader technology stocks and trends. ",
+    "first_name": "Ashraf",
+    "byline": "Ashraf Eassa",
+    "uuid": "48e9bed2-0a8e-11e3-b1dc-0050569d4333",
+    "contributor_type": "individual",
+    "large_avatar_url": "http://g.foolcdn.com/avatar/1741565332/large.ashx",
+    "short_bio": "Ashraf Eassa is a technology specialist with The Motley Fool. He writes mostly about technology stocks, but is especially interested in anything related to chips -- the semiconductor kind, that is. He can be reached on Twitter -- follow him there: <a href=\"https://twitter.com/tmfchipfool\" class=\"twitter-follow-button\" data-show-count=\"false\">Follow @tmfchipfool</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "author_id": 4997,
+    "email": "aeassa@gmail.com",
+    "links": 30
+  }
+},
+{
+  "model": "articles.instrument",
+  "pk": 13,
+  "fields": {
+    "instrument_id": 205771,
+    "asset_class": "Stock",
+    "exchange": "NYSE",
+    "symbol": "TM",
+    "primary": false,
+    "seo_name": "toyota-motor",
+    "company_name": "Toyota Motor",
+    "syndicate": false,
+    "valid": true,
+    "links": 26
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 14,
+  "fields": {
+    "instrument_id": 203768,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "GOOGL",
+    "primary": false,
+    "seo_name": "alphabet-a-shares",
+    "company_name": "Alphabet (A shares)",
+    "syndicate": true,
+    "valid": true,
+    "links": 27
+  }
+},
+
+{
+  "model": "articles.instrument",
+  "pk": 15,
+  "fields": {
+    "instrument_id": 288965,
+    "asset_class": "Stock",
+    "exchange": "NASDAQ",
+    "symbol": "GOOG",
+    "primary": false,
+    "seo_name": "alphabet-c-shares",
+    "company_name": "Alphabet (C shares)",
+    "syndicate": true,
+    "valid": true,
+    "links": 28
+  }
+},
+
+
+
+{
+  "model": "articles.author",
+  "pk": 5,
+  "fields": {
+    "username": "TMFNewsie",
+    "last_name": "Neiger",
+    "fool_uid": 1734155337,
+    "primary": true,
+    "twitter_username": null,
+    "small_avatar_url": "http://g.foolcdn.com/avatar/1734155337/small.ashx",
+    "long_bio": null,
+    "first_name": "Chris",
+    "byline": "Chris Neiger",
+    "uuid": "4239adb8-0a8e-11e3-b1dc-0050569d4333",
+    "contributor_type": "individual",
+    "large_avatar_url": "http://g.foolcdn.com/avatar/1734155337/large.ashx",
+    "short_bio": "Chris has covered Tech and Telecom companies for The Motley Fool since 2012. Follow him on Twitter for the latest tech stock coverage. <a href=\"https://twitter.com/tmfnewsie\" class=\"twitter-follow-button\" data-show-count=\"false\" data-size=\"large\">Follow @tmfnewsie</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>",
+    "author_id": 2065,
+    "email": "cneiger@fool.com",
+    "links": 29
+  }
+},
+
+  {
+    "model": "articles.instrument",
+    "pk": 10,
+    "fields": {
+      "instrument_id": 275270,
+      "asset_class": "Stock",
+      "exchange": "NASDAQOTH",
+      "symbol": "AUDVF",
+      "primary": false,
+      "seo_name": "audi-ag",
+      "company_name": "Audi AG",
+      "syndicate": false,
+      "valid": true,
+      "links": 23
+    }
+  },
+
+  {
+    "model": "articles.instrument",
+    "pk": 11,
+    "fields": {
+      "instrument_id": 204070,
+      "asset_class": "Stock",
+      "exchange": "NYSE",
+      "symbol": "IT",
+      "primary": false,
+      "seo_name": "gartner",
+      "company_name": "Gartner",
+      "syndicate": false,
+      "valid": true,
+      "links": 24
+    }
+  },
+
+
+  {
+    "model": "articles.instrument",
+    "pk": 12,
+    "fields": {
+      "instrument_id": 224257,
+      "asset_class": "Stock",
+      "exchange": "NASDAQ",
+      "symbol": "TSLA",
+      "primary": false,
+      "seo_name": "tesla",
+      "company_name": "Tesla",
+      "syndicate": false,
+      "valid": true,
+      "links": 25
+    }
+  },
+  {
+    "model": "articles.instrument",
+    "pk": 6,
+    "fields": {
+      "instrument_id": 204770,
+      "asset_class": "Stock",
+      "exchange": "NASDAQ",
+      "symbol": "NVDA",
+      "primary": true,
+      "seo_name": "nvidia",
+      "company_name": "Nvidia",
+      "syndicate": true,
+      "valid": true,
+      "links": 19
+    }
+  },
+
+
+  {
+    "model": "articles.instrument",
+    "pk": 7,
+    "fields": {
+      "instrument_id": 202816,
+      "asset_class": "Stock",
+      "exchange": "NASDAQ",
+      "symbol": "AMZN",
+      "primary": false,
+      "seo_name": "amazon",
+      "company_name": "Amazon",
+      "syndicate": false,
+      "valid": true,
+      "links": 20
+    }
+  },
+
+
+  {
+    "model": "articles.instrument",
+    "pk": 8,
+    "fields": {
+      "instrument_id": 204577,
+      "asset_class": "Stock",
+      "exchange": "NASDAQ",
+      "symbol": "MSFT",
+      "primary": false,
+      "seo_name": "microsoft",
+      "company_name": "Microsoft",
+      "syndicate": false,
+      "valid": true,
+      "links": 21
+    }
+  },
+
+
+  {
+    "model": "articles.instrument",
+    "pk": 9,
+    "fields": {
+      "instrument_id": 204036,
+      "asset_class": "Stock",
+      "exchange": "NASDAQ",
+      "symbol": "INTC",
+      "primary": false,
+      "seo_name": "intel",
+      "company_name": "Intel",
+      "syndicate": false,
+      "valid": true,
+      "links": 22
+    }
+  },
+
+  {
+    "model": "articles.tag",
+    "pk": 5,
+    "fields": {
+      "uuid": "89038dfe-5db3-11e3-8416-0050569d32b9",
+      "slug": "10-promise",
+      "name": "10% Promise",
+      "links": 18
+    }
+  },
+
+    {
+      "model": "articles.instrument",
+      "pk": 4,
+      "fields": {
+        "instrument_id": 206868,
+        "asset_class": "Stock",
+        "exchange": "NYSE",
+        "symbol": "ABX",
+        "primary": true,
+        "seo_name": "barrick-gold",
+        "company_name": "Barrick Gold",
+        "syndicate": true,
+        "valid": true,
+        "links": 14
+      }
+    },
+
+    {
+      "model": "articles.instrument",
+      "pk": 5,
+      "fields": {
+        "instrument_id": 208812,
+        "asset_class": "ETF",
+        "exchange": "NYSEMKT",
+        "symbol": "GLD",
+        "primary": false,
+        "seo_name": "spdr-gold-trust",
+        "company_name": "SPDR Gold Trust",
+        "syndicate": true,
+        "valid": true,
+        "links": 15
+      }
+    },
+
+
+    {
+      "model": "articles.author",
+      "pk": 4,
+      "fields": {
+        "username": "TMFProudMonkey",
+        "last_name": "Levine",
+        "fool_uid": 285638173,
+        "primary": true,
+        "twitter_username": null,
+        "small_avatar_url": "http://g.foolcdn.com/avatar/285638173/small.ashx",
+        "long_bio": "Scott Levine is a freelance writer who began contributing content to The Motley Fool in 2013. Having graduated from Binghamton University with a degree in English and Creative Writing, Scott intended on applying to culinary school. Instead, he traded his chef's knives for some pieces of chalk and began a career as a high school English teacher. Teaching literature and film during the day, Scott spends time at night as a student of Foolish investing. Follow him on Twitter. . . \n<a href=\"https://twitter.com/scott81236\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @scott81236</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>",
+        "first_name": "Scott",
+        "byline": "Scott Levine",
+        "uuid": "43f03bc2-0a8e-11e3-b1dc-0050569d4333",
+        "contributor_type": "individual",
+        "large_avatar_url": "http://g.foolcdn.com/avatar/285638173/large.ashx",
+        "short_bio": "A member of The Motley Fool since 2006, Scott began contributing content in 2013. His focus includes renewable energy, gold, and water utilities. Follow him on Twitter. . . \n<a href=\"https://twitter.com/scott81236\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @scott81236</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>",
+        "author_id": 2420,
+        "email": "scott81236@aol.com",
+        "links": 17
+      }
+    },
+    {
+      "model": "articles.instrument",
+      "pk": 3,
+      "fields": {
+        "instrument_id": 207292,
+        "asset_class": "Stock",
+        "exchange": "NYSE",
+        "symbol": "NGG",
+        "primary": true,
+        "seo_name": "national-grid",
+        "company_name": "National Grid",
+        "syndicate": true,
+        "valid": true,
+        "links": 12
+      }
+    },
+
+
+    {
+      "model": "articles.author",
+      "pk": 3,
+      "fields": {
+        "username": "TMFDirtyBird",
+        "last_name": "Crowe",
+        "fool_uid": 1734156369,
+        "primary": true,
+        "twitter_username": null,
+        "small_avatar_url": "http://g.foolcdn.com/avatar/1734156369/small.ashx",
+        "long_bio": "Tyler Crowe writes for The Motley Fool focusing on energy, commodities, and industrials with the occasional musing on other various topics. <a href=\"https://twitter.com/TylerCroweFool\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @TylerCroweFool</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n ",
+        "first_name": "Tyler",
+        "byline": "Tyler Crowe",
+        "uuid": "423a9ba6-0a8e-11e3-b1dc-0050569d4333",
+        "contributor_type": "individual",
+        "large_avatar_url": "http://g.foolcdn.com/avatar/1734156369/large.ashx",
+        "short_bio": "Columnist for fool.com. <a href=\"https://twitter.com/TylerCroweFool\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @TylerCroweFool</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n ",
+        "author_id": 2067,
+        "email": "tcrowe@foolcontractors.com",
+        "links": 13
+      }
+    },
+
+
+    {
+      "model": "articles.bureau",
+      "pk": 3,
+      "fields": {
+        "uuid": "ad1dbd9e-06a7-11e3-a4aa-0050569d4333",
+        "slug": "usmf-energy-materials-and-utilities",
+        "name": "Energy, Materials, and Utilities",
+        "links": 14
+      }
+    },
+
+      {
+        "model": "articles.author",
+        "pk": 2,
+        "fields": {
+          "username": "TMFBreakerRick",
+          "last_name": "Munarriz",
+          "fool_uid": 85510,
+          "primary": true,
+          "twitter_username": "@market",
+          "small_avatar_url": "http://g.foolcdn.com/avatar/85510/small.ashx",
+          "long_bio": "Rick has been writing for Motley Fool since 1995 where he's a Consumer and Tech Stocks Specialist. Yes, that's a long time with more than 20,000 bylines over those 22 years. He's been an analyst for Motley Fool Rule Breakers and a portfolio lead analyst for Motley Fool Supernova since each newsletter service's inception. He earned his BBA and MBA from the University of Miami, and he splits his time living in Miami, Florida and Celebration, Florida.",
+          "first_name": "Rick",
+          "byline": "Rick Munarriz",
+          "uuid": "41f0f0f0-0a8e-11e3-b1dc-0050569d4333",
+          "contributor_type": "individual",
+          "large_avatar_url": "http://g.foolcdn.com/avatar/85510/large.ashx",
+          "short_bio": "Rick has been writing for Motley Fool since 1995 where he's a Consumer and Tech Stocks Specialist. Yes, that's a long time with more than 20,000 bylines over those 22 years. He's been an analyst for Motley Fool Rule Breakers and a portfolio lead analyst for Motley Fool Supernova since each newsletter service's inception. He earned his BBA and MBA from the University of Miami, and he splits his time living in Miami, Florida and Celebration, Florida.\n\n<a href=\"https://twitter.com/market\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @market</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>",
+          "author_id": 1280,
+          "email": "tmfedible@aol.com",
+          "links": 9
+        }
+      },
+
+      {
+        "model": "articles.bureau",
+        "pk": 2,
+        "fields": {
+          "uuid": "ad21ea72-06a7-11e3-a4aa-0050569d4333",
+          "slug": "usmf-technology-and-telecom",
+          "name": "Technology and Telecom",
+          "links": 10
+        }
+      },
+
+      {
+        "model": "articles.tag",
+        "pk": 4,
+        "fields": {
+          "uuid": "9b78295a-30ab-11e5-911e-0050569d32b9",
+          "slug": "yahoo-news",
+          "name": "Yahoo News",
+          "links": 11
+        }
+      },
+      {
+        "model": "articles.instrument",
+        "pk": 2,
+        "fields": {
+          "instrument_id": 208933,
+          "asset_class": "Stock",
+          "exchange": "NASDAQ",
+          "symbol": "JOBS",
+          "primary": true,
+          "seo_name": "51job",
+          "company_name": "51job",
+          "syndicate": true,
+          "valid": true,
+          "links": 8
+        }
+      }
+
+
+
+      ]
