@@ -1,0 +1,51 @@
+{% extends "articles/base.html" %}
+
+{% block content %}
+<div class="container content-inner">
+    <div class="main-col">
+        <section class="jumbo-card card">
+            <div class="card-image">
+                <a href="article.html"><img src="images/card.jpg" alt="" class="img-responsive"></a>
+            </div>
+            <div class="card-elements">
+                <div class="card-header">
+                    <a href="article.html"><h3>Duis ut metus ac ligula fermentum laoreet nec sed orci.</h3></a>
+                    <p class="author">Naeem Khan | November 18, 2017 </p>
+                </div>
+                <div class="card-copy">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="cards row">
+      {% if latest_article_list %}
+          {% for article in latest_article_list %}
+        <div class="card">
+            <div class="card-image">
+                <a href="article.html">
+                  {% for image in article.images.all %}
+                    <img src="{{ image.url }}" alt="">
+                    {% endfor %}
+                </a>
+            </div>
+
+                <div class="card-elements">
+                    <div class="card-header">
+                        <a href="article.html">
+                            <h4><a href="{% url 'articles:article' article.uuid %}">{{ article.headline }}</a></h4>
+                        </a>
+                        <p class="author">{{article.byline}}| {{article.created}}</p>
+                    </div>
+                    <div class="card-copy">
+                        <p>{{article.promo}}</p>
+                    </div>
+                </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No articles are available.</p>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

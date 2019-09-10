@@ -22,15 +22,7 @@
             "modified": "2017-11-10T15:10:02Z",
             "product_id": 0,
             "video": null,
-            "byline": "John Maxfield",
-            "insturments": 203781,
-            "authors": "41f68dbc-0a8e-11e3-b1dc-0050569d4333",
-            "bureau" : "ad1e57a4-06a7-11e3-a4aa-0050569d4333",
-            "collection": "bb3ea16c-1c58-11e6-9006-0050569d4be0",
-            "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0"],
-            "pitch": 6115,
-            "links": 1,
-            "images":"6069e632-c5aa-11e7-982d-0050569d32b9"
+            "byline": "John Maxfield"
           } },
 
 
@@ -54,15 +46,7 @@
               "modified": "2017-11-10T15:05:03Z",
               "product_id": 0,
               "video": null,
-              "byline": "Rick Munarriz",
-              "insturments": 2,
-              "authors": 2,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,4],
-              "pitch": 1,
-              "links": 2,
-              "images":2
+              "byline": "Rick Munarriz"
             } },
 
 
@@ -84,15 +68,7 @@
               "modified": "2017-11-10T15:05:04Z",
               "product_id": 0,
               "video": null,
-              "byline": "Tyler Crowe",
-              "insturments": 3,
-              "authors": 3,
-              "bureau" : 3,
-              "collection": 1,
-              "tags": [1,2,3],
-              "pitch": 1,
-              "links": 3,
-              "images": [3,4,5]
+              "byline": "Tyler Crowe"
             } },
 
 
@@ -114,15 +90,7 @@
               "modified": "2017-11-10T15:05:53Z",
               "product_id": 0,
               "video": null,
-              "byline": "Scott Levine",
-              "insturments": [4, 5],
-              "authors": 4,
-              "bureau" : 3,
-              "collection": 1,
-              "tags": [1,2,3,5],
-              "pitch": 1,
-              "links": 4,
-              "images": 6
+              "byline": "Scott Levine"
             } },
 
 
@@ -144,15 +112,7 @@
               "modified": "2017-11-10T15:02:04Z",
               "product_id": 0,
               "video": null,
-              "byline": "Chris Neiger",
-              "insturments": [6,7,8,9,10,11,12,13,14,15],
-              "authors": 5,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,3],
-              "pitch": 1,
-              "links": 5,
-              "images": [7,8]
+              "byline": "Chris Neiger"
             } },
 
 
@@ -174,15 +134,7 @@
               "modified": "2017-11-10T15:00:03Z",
               "product_id": 0,
               "video": null,
-              "byline": "Ashraf Eassa",
-              "insturments": [9],
-              "authors": 6,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,4],
-              "pitch": 1,
-              "links": 6,
-              "images": [9,10]
+              "byline": "Ashraf Eassa"
             } },
 
 
@@ -204,15 +156,7 @@
               "modified": "2017-11-10T14:58:36Z",
               "product_id": 0,
               "video": null,
-              "byline": "Chris Neiger",
-              "insturments": [16,17,18,19,20,21],
-              "authors": 5,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,3,5],
-              "pitch": 1,
-              "links": 7,
-              "images": 11
+              "byline": "Chris Neiger"
             } },
 
 
@@ -237,15 +181,7 @@
               "modified": "2017-11-10T14:50:13Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan",
-              "insturments": [22],
-              "authors": 7,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,4,5],
-              "pitch": 1,
-              "links": 8,
-              "images": 12
+              "byline": "Keith Noonan"
             } },
 
           { "model": "articles.article",
@@ -266,15 +202,7 @@
               "modified": "2017-11-10T14:41:50Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan",
-              "insturments": [23],
-              "authors": 7,
-              "bureau" : 2,
-              "collection": 1,
-              "tags": [1,2,3,5],
-              "pitch": 1,
-              "links": 9,
-              "images": 13
+              "byline": "Keith Noonan"
             } },
 
 
@@ -299,15 +227,7 @@
               "modified": "2017-11-10T14:35:19Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan",
-              "insturments": [24],
-              "authors": 7,
-              "bureau" : 4,
-              "collection": 1,
-              "tags":[1,2,3,5],
-              "pitch": 1,
-              "links": 10,
-              "images": 14
+              "byline": "Keith Noonan"
             } }
 
 ]

@@ -1,20 +1,18 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponse
+from .models import Article
 
-# from datetime import datetime
-#
-# try:
-#   valid_datetime = datetime.strptime(request.POST['date'], '%d-%m-%Y')
-# except ValueError:
-#   # handle th
+
 
 
 def home(request):
-    return HttpResponse("Welcome to the home page")
+    latest_article_list = Article.objects.order_by('uuid')[:5]
+    context = {'latest_article_list': latest_article_list,}
+    return render(request, 'articles/home.html', context)
 
-def articles(request, article_id):
-    response = "You're looking at the results of article %s."
-    return HttpResponse(response % article_id)
+def article(request, article_uuid):
+    article = get_object_or_404(Article, pk=article_uuid)
+    return render(request, 'articles/article.html', {'article': article})
 
 def stocks(request):
     return HttpResponse("Welcome to the stock page")
