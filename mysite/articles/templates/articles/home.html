@@ -2,10 +2,41 @@
 
 {% block content %}
 <div class="container content-inner">
+  <div class="card-deck">
+
+  {% if latest_article_list %}
+      {% for article in latest_article_list %}
+        {% if forloop.first %}
     <div class="main-col">
-        <section class="jumbo-card card">
+      <div class="card mb-3" >
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <a href="article.html">
+                {% for image in article.images.all %}
+                  {% if forloop.first %}
+                  <img class="card-img" src="{{ image.url}}" alt="">
+                    {% endif %}
+                  {% endfor %}
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title"><a href="{% url 'articles:article' article.uuid %}">{{ article.headline }}</a></h3>
+                <p class="card-text"><small class="text-muted">{{article.byline}}| {{article.created}}</small></p>
+                <p class="card-text">{{article.promo}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <section class="jumbo-card card">
             <div class="card-image">
-                <a href="article.html"><img src="images/card.jpg" alt="" class="img-responsive"></a>
+                <a href="article.html">
+                  {% for image in article.images.all %}
+                    {% if forloop.first %}
+                    <img class="img-responsive" style="width: 18rem; height: 10rem " src="{{ image.url}}" alt="">
+                      {% endif %}
+                    {% endfor %}
+                </a>
             </div>
             <div class="card-elements">
                 <div class="card-header">
@@ -16,16 +47,16 @@
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
-    <div class="cards row">
-      {% if latest_article_list %}
-          {% for article in latest_article_list %}
-        <div class="card">
+    {% else %}
+        <div class="card" style="width: 18rem;">
             <div class="card-image">
                 <a href="article.html">
                   {% for image in article.images.all %}
-                    <img src="{{ image.url }}" alt="">
+                    {% if forloop.first %}
+                    <img style="width: 18rem; height: 10rem " src="{{ image.url}}" alt="">
+                      {% endif %}
                     {% endfor %}
                 </a>
             </div>
@@ -42,10 +73,9 @@
                     </div>
                 </div>
         </div>
-        {% endfor %}
-    {% else %}
-        <p>No articles are available.</p>
-    {% endif %}
-    </div>
+      {% endif %}
+    {% endfor %}
+{% endif %}
+</div>
 </div>
 {% endblock %}

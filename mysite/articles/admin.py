@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Tagtype, Link, ArticleLink,Pitch, Instrument, Article, Author, Bureau, Collection, Tag,Image
+from .models import Tagtype, Link, ArticleLink,Pitch, Instrument, Article, Author, Bureau, Collection, Tag,Image, Quote
 
 admin.site.register(Tagtype)
 admin.site.register(Link)
@@ -13,3 +13,4 @@ admin.site.register(Collection)
 admin.site.register(Bureau)
 admin.site.register(Tag)
 admin.site.register(Image)
+admin.site.register(Quote)

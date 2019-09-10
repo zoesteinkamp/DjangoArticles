@@ -103,16 +103,17 @@ class Article(models.Model):
     byline = models.CharField(max_length=100)
     insturments = models.ManyToManyField(Instrument)
     authors = models.ManyToManyField(Author)
-    bureau = models.OneToOneField(Bureau,null=True,on_delete=models.CASCADE)
-    collection = models.OneToOneField(Collection,null=True,on_delete=models.CASCADE)
+    bureau = models.ManyToManyField(Bureau)
+    collection = models.ManyToManyField(Collection)
     tags = models.ManyToManyField(Tag)
-    pitch = models.OneToOneField(Pitch,null=True,on_delete=models.CASCADE)
+    pitch = models.ManyToManyField(Pitch)
     links = models.OneToOneField(ArticleLink,null=True,on_delete=models.CASCADE)
     images = models.ManyToManyField(Image)
     comments = models.ForeignKey('Comments',blank=True,null=True, on_delete=models.CASCADE)
 
 
-class Quotes(models.Model):
+
+class Quote(models.Model):
     company_name = models.CharField(max_length=100)
     symbol = models.CharField(max_length=100)
     exchange = models.CharField(max_length=100)

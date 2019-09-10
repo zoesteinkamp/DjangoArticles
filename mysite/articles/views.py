@@ -6,8 +6,8 @@ from .models import Article
 
 
 def home(request):
-    latest_article_list = Article.objects.order_by('uuid')[:5]
-    context = {'latest_article_list': latest_article_list,}
+    latest_article_list = Article.objects.filter(article_type ="10-promise-series")[:4]
+    context = {'latest_article_list': latest_article_list}
     return render(request, 'articles/home.html', context)
 
 def article(request, article_uuid):
