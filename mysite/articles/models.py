@@ -99,7 +99,7 @@ class Article(models.Model):
     video = models.CharField(max_length=100,null=True, blank=True)
     byline = models.CharField(max_length=100)
     insturments = models.ManyToManyField(Instrument)
-    authors = models.ManyToManyField(Author)
+    authors = models.ManyToManyField(Author, related_name='authors')
     bureau = models.ManyToManyField(Bureau)
     collection = models.ManyToManyField(Collection)
     tags = models.ManyToManyField(Tag)

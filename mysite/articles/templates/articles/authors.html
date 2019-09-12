@@ -1,0 +1,25 @@
+{% extends "articles/base.html" %}
+
+{% block content %}
+<div class="container article-content-inner">
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Username</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for author in authors %}
+      <tr>
+        <th scope="row"><a href="{% url 'articles:author' author.uuid %}"> {{author.first_name}} {{author.last_name}}</a></th>
+        <td>{{author.username}}</td>
+        <td>{{author.email}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
