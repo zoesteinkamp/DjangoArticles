@@ -1,5 +1,6 @@
 from django.db import models
 import uuid
+from django.utils import timezone
 
 
 class Tagtype(models.Model):
@@ -78,10 +79,6 @@ class Tag(models.Model):
     tag_type = models.ManyToManyField(Tagtype)
     links = models.OneToOneField(Link,on_delete=models.CASCADE, null=True, blank=True)
 
-class Comments(models.Model):
-    body = models.TextField()
-    name = models.CharField(max_length=100)
-    created = models.DateTimeField()
 
 
 class Article(models.Model):
@@ -109,8 +106,12 @@ class Article(models.Model):
     pitch = models.ManyToManyField(Pitch)
     links = models.OneToOneField(ArticleLink,null=True,on_delete=models.CASCADE)
     images = models.ManyToManyField(Image)
-    comments = models.ForeignKey('Comments',blank=True,null=True, on_delete=models.CASCADE)
 
+class Comment(models.Model):
+    article = models.ForeignKey('Article',blank=True,null=True, on_delete=models.CASCADE, related_name='comments')
+    body = models.TextField()
+    name = models.CharField(max_length=100, null=True)
+    created = models.DateTimeField(default=timezone.now)
 
 
 class Quote(models.Model):

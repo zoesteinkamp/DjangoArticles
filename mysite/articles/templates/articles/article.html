@@ -1,1 +1,125 @@
-{{article}}
+{% extends "articles/base.html" %}
+
+{% block content %}
+<div class="container article-content-inner">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="article-header">
+                <header>
+                    <div id="adv_text" class="adv-heading"></div>
+                    <h1>Tesla Unveils 2 Mind-Blowing New Vehicles -- What You Need to Know</h1>
+                    <!--<h2>You won't believe the specs on these new all-electric vehicles. </h2>-->
+                </header>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <main class="col-sm-7 col-md-8">
+            <div class="author-tagline author-inline">
+                <div class="author-and-date">
+                    <div class="author-byline">
+                      {% for author in article.authors.all %}
+                      <div class="author-name"> {{author.first_name}} {{author.last_name}} </div>
+                      <div class="author-username">
+                          (<a href="#"> {{author.username}}</a>)
+                      </div>
+                      {% endfor %}
+                    </div>
+                    <div class="article-pub-date">
+                        <div class="publication-date">
+                            {{article.publish_at}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="article-body">
+                <div class="article-content">
+                  {{article.body |safe }}
+                </div>
+                <div class="article-disclosure">
+                    <p>{{article.disclosure | safe}}</p>
+                </div>
+                <div class="special-message">
+                    <h5>{{article.byline}}</h5>
+                    {% for author in article.authors.all %}
+                      <p>{{ author.short_bio | safe }}</p>
+                    {% endfor %}
+                </div>
+            </section>
+            <h1>New comment</h1>
+          <form method="POST" class="post-form">{% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" class="save btn btn-default">Send</button>
+          </form>
+            <hr>
+            {% for comment in comments %}
+                <div class="comment">
+                    <div class="date">{{ comment.created_date }}</div>
+                    <p>{{ comment.body|linebreaks }}</p>
+                </div>
+            {% empty %}
+                <p>No comments here yet :(</p>
+            {% endfor %}
+        </main>
+        <aside class="col-sm-5 col-md-4 p-l">
+            <section class="related-tickers">
+              <div class="block-title">
+                  <hr><h2>Stocks</h2>
+              </div>
+              <div class="ticker-row">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div>
+                      <!-- <span class="image-wrap">
+                          <a href="#">
+                              <img src="images/related-1.png" class="img-responsive" alt="">
+                          </a>
+                      </span> -->
+                      <h3>Apple</h3>
+                      <h4>
+                          <span class="ticker">
+                              <a title="Apple Stock Quote" href="#">
+                                  NASDAQ:<span class="symbol">AAPL</span>
+                              </a>
+                          </span>
+                      </h4>
+                      <aside class="price-quote-container">
+                          <h4 class="current-price">
+                              $170.15
+                          </h4>
+                          <h4 class="price-change-amount price-neg">
+                              $0.95
+                          </h4>
+                          <h4 class="price-change-percent price-neg">
+                              (-0.56%)
+                          </h4>
+                      </aside>
+                  </div>
+              </div>
+            </section>
+            <section class="read-more-section">
+                <div class="block-title">
+                    <hr><h2>Read More</h2>
+                </div>
+                <ul class="two-line-list">
+                  {% for article in suggested_articles %}
+                    <li><a  href="{% url 'articles:article' article.uuid %}">{{ article.headline }}</a></li>
+                  {% endfor %}
+                </ul>
+            </section>
+        </aside>
+    </div>
+</div>
+{% endblock %}
