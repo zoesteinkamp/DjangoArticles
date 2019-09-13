@@ -22,7 +22,10 @@
             "modified": "2017-11-10T15:10:02Z",
             "product_id": 0,
             "video": null,
-            "byline": "John Maxfield"
+            "byline": "John Maxfield",
+            "authors":  ["41f68dbc-0a8e-11e3-b1dc-0050569d4333"],
+            "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0"]
+
           } },
 
 
@@ -46,7 +49,9 @@
               "modified": "2017-11-10T15:05:03Z",
               "product_id": 0,
               "video": null,
-              "byline": "Rick Munarriz"
+              "byline": "Rick Munarriz",
+              "authors": ["41f0f0f0-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","9b78295a-30ab-11e5-911e-0050569d32b9"]
             } },
 
 
@@ -68,7 +73,9 @@
               "modified": "2017-11-10T15:05:04Z",
               "product_id": 0,
               "video": null,
-              "byline": "Tyler Crowe"
+              "byline": "Tyler Crowe",
+              "authors": ["423a9ba6-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0"]
             } },
 
 
@@ -90,7 +97,9 @@
               "modified": "2017-11-10T15:05:53Z",
               "product_id": 0,
               "video": null,
-              "byline": "Scott Levine"
+              "byline": "Scott Levine",
+              "authors": ["43f03bc2-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0","89038dfe-5db3-11e3-8416-0050569d32b9"]
             } },
 
 
@@ -112,7 +121,10 @@
               "modified": "2017-11-10T15:02:04Z",
               "product_id": 0,
               "video": null,
-              "byline": "Chris Neiger"
+              "byline": "Chris Neiger",
+              "authors": ["4239adb8-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0"]
+
             } },
 
 
@@ -134,7 +146,10 @@
               "modified": "2017-11-10T15:00:03Z",
               "product_id": 0,
               "video": null,
-              "byline": "Ashraf Eassa"
+              "byline": "Ashraf Eassa",
+              "authors": ["48e9bed2-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","9b78295a-30ab-11e5-911e-0050569d32b9"]
+
             } },
 
 
@@ -156,7 +171,10 @@
               "modified": "2017-11-10T14:58:36Z",
               "product_id": 0,
               "video": null,
-              "byline": "Chris Neiger"
+              "byline": "Chris Neiger",
+              "authors": ["4239adb8-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0","89038dfe-5db3-11e3-8416-0050569d32b9"]
+
             } },
 
 
@@ -181,7 +199,9 @@
               "modified": "2017-11-10T14:50:13Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan"
+              "byline": "Keith Noonan",
+              "authors": ["4c6ec3e0-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","9b78295a-30ab-11e5-911e-0050569d32b9", "89038dfe-5db3-11e3-8416-0050569d32b9"]
             } },
 
           { "model": "articles.article",
@@ -202,7 +222,10 @@
               "modified": "2017-11-10T14:41:50Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan"
+              "byline": "Keith Noonan",
+              "authors": ["4c6ec3e0-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0","89038dfe-5db3-11e3-8416-0050569d32b9"]
+
             } },
 
 
@@ -227,7 +250,9 @@
               "modified": "2017-11-10T14:35:19Z",
               "product_id": 0,
               "video": null,
-              "byline": "Keith Noonan"
+              "byline": "Keith Noonan",
+              "authors": ["4c6ec3e0-0a8e-11e3-b1dc-0050569d4333"],
+              "tags": ["78aa4c44-d4f4-11e5-86ff-0050569d32b9","342ec714-9adf-11e6-bdf0-0050569d32b9","603e544a-1f53-11e5-a69e-0050569d4be0","89038dfe-5db3-11e3-8416-0050569d32b9"]
             } }
 
 ]

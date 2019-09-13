@@ -281,6 +281,28 @@
   }
 },
 {
+  "model": "articles.author",
+  "pk": 7,
+  "fields": {
+    "username": "TMFNoons",
+    "last_name": "Noonan",
+    "fool_uid": 1817250154,
+    "primary": true,
+    "twitter_username": null,
+    "small_avatar_url": "http://g.foolcdn.com/avatar/1817250154/small.ashx",
+    "long_bio": null,
+    "first_name": "Keith",
+    "byline": "Keith Noonan",
+    "uuid": "4c6ec3e0-0a8e-11e3-b1dc-0050569d4333",
+    "contributor_type": "individual",
+    "large_avatar_url": "http://g.foolcdn.com/avatar/1817250154/large.ashx",
+    "short_bio": "Keith Noonan covers technology, entertainment, and other fields. You can follow him on Twitter by clicking the button below:\n\n<a href=\"https://twitter.com/TweethNoonan\" class=\"twitter-follow-button\" data-show-count=\"true\" data-size=\"large\">Follow @TweethNoonan</a>\n\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n",
+    "author_id": 6956,
+    "email": "keithbnoonan@gmail.com",
+    "links": 38
+  }
+},
+{
   "model": "articles.instrument",
   "pk": 13,
   "fields": {

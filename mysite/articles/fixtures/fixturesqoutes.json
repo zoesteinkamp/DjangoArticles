@@ -1,6 +1,6 @@
 [
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 1,
       "fields": {
     "company_name": "Pearson",
@@ -77,7 +77,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 2,
       "fields": {
     "company_name": "NCR",
@@ -154,7 +154,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 3,
       "fields": {
     "company_name": "Atlassian",
@@ -230,7 +230,7 @@
     "revenue_growth": 35.6
   }},
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 4,
       "fields": {
     "company_name": "Apple",
@@ -307,7 +307,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 5,
       "fields": {
     "company_name": "JPMorgan Chase",
@@ -384,7 +384,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 6,
       "fields": {
     "company_name": "Qorvo",
@@ -461,7 +461,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 7,
       "fields": {
     "company_name": "Broadcom Ltd",
@@ -538,7 +538,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 8,
       "fields": {
     "company_name": "Broadcom",
@@ -615,7 +615,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 9,
       "fields": {
     "company_name": "Skyworks Solutions",
@@ -692,7 +692,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 10,
       "fields": {
     "company_name": "Intel",
@@ -769,7 +769,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 11,
       "fields": {
     "company_name": "Alphabet (C shares)",
@@ -846,7 +846,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 12,
       "fields": {
     "company_name": "Alphabet (A shares)",
@@ -923,7 +923,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 13,
       "fields": {
     "company_name": "Toyota Motor",
@@ -1000,7 +1000,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 14,
       "fields": {
     "company_name": "Tesla",
@@ -1077,7 +1077,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 15,
       "fields": {
     "company_name": "Gartner",
@@ -1154,7 +1154,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 16,
       "fields": {
     "company_name": "Audi AG",
@@ -1231,7 +1231,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 17,
       "fields": {
     "company_name": "Intel",
@@ -1308,7 +1308,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 18,
       "fields": {
     "company_name": "Microsoft",
@@ -1385,7 +1385,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 19,
       "fields": {
     "company_name": "Amazon",
@@ -1462,7 +1462,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 20,
       "fields": {
     "company_name": "Nvidia",
@@ -1539,7 +1539,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 21,
       "fields": {
     "company_name": "SPDR Gold Trust",
@@ -1616,7 +1616,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 22,
       "fields": {
     "company_name": "Barrick Gold",
@@ -1693,7 +1693,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 23,
       "fields": {
     "company_name": "National Grid",
@@ -1770,7 +1770,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 24,
       "fields": {
     "company_name": "51job",
@@ -1847,7 +1847,7 @@
   }},
 
   {
-      "model": "articles.quotes",
+      "model": "articles.quote",
       "pk": 25,
       "fields": {
     "company_name": "Goldman Sachs",
