@@ -9,7 +9,7 @@ import json
 def home(request):
     qs1 = Article.objects.filter(tags__slug ="10-promise")[:1]
     # i know that .order_by('?') can be heavy on larger datasets, but its fine for this small project
-    qs2 = Article.objects.all().order_by('?')[:3]
+    qs2 = Article.objects.all().order_by('?').exclude(pk=qs1)[:3]
     latest_article_list = itertools.chain(qs1, qs2)
     context = {'latest_article_list': latest_article_list}
     return render(request, 'articles/home.html', context)
