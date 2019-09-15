@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <link rel="stylesheet" href="{% static 'css/global.css' %}">
-        <!-- <link rel="stylesheet" href="{ % static 'static/app.js' % }"> -->
 
     </head>
     <body>
@@ -43,25 +42,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script>
+var stockstodisplay = []
 var a = "{{stock_list}}";
 var ticker = document.getElementById('ticker-row')
 
-
-function add_stocks(items){
-  console.log(items)
-  for (i = 0; i < items.length; i++) {
-    ticker.innerHTML += '<div class="list-group list-group-flush"><div href="#" class="list-group-item"><div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + items[i].company_name + '</h5><small>Current Price: $' + items[i].currentpriceamount + '</small></div><p class="mb-1 exchange">' + items[i].exchange_name +':'+ items[i].symbol +'</p><small>Price Change Amount: $'+ items[i].changeamount + '</small><small>Price Change Percentage: ('+ items[i].changepercent + '%)</small></div></div>'
-  }
-}
-
-function random_stocks(items){
-  for (i = 0; i < 3; i++) {
-    stockstodisplay.push(items[Math.floor(Math.random()*items.length)])
-  }}
-
-if(a.length > 1){
+if(a.length > 0){
     var stocks = JSON.parse('{{ stock_list | safe }}');
-    var stockstodisplay = []
+    console.log(stocks)
     random_stocks(stocks);
     add_stocks(stockstodisplay)
 
@@ -76,6 +63,25 @@ if(a.length > 1){
         document.getElementById("formarea").style.display = "";
         document.getElementById("showcomment").style.display = "none";
   }
-
 }
+
+
+function add_stocks(items){
+  for (i = 0; i < items.length; i++) {
+    ticker.innerHTML += '<div class="list-group list-group-flush"><div href="#" class="list-group-item"><div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + items[i].company_name + '</h5><small>Current Price: $' + items[i].currentpriceamount + '</small></div><p class="mb-1 exchange">' + items[i].exchange_name +':'+ items[i].symbol +'</p><small>Price Change Amount: $'+ items[i].changeamount + '</small><small>Price Change Percentage: ('+ items[i].changepercent + '%)</small><div></div>'
+  }
+}
+
+function random_stocks(items){
+  if(items.length < 3){
+    for (i = 0; i < items.length; i++) {
+      stockstodisplay.push(items[Math.floor(Math.random()*items.length)])
+    }
+  }else{
+    for (i = 0; i < 3; i++) {
+      stockstodisplay.push(items[Math.floor(Math.random()*items.length)])
+    }
+  }
+  }
+
 </script>

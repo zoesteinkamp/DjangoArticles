@@ -69,7 +69,11 @@
         <aside class="col-sm-5 col-md-4 p-l">
             <section class="related-tickers">
               <div class="block-title">
-                  <hr><h2>Stocks <button class="btn" id="refreshstocks" > New Stocks</button></h2>
+                  <hr><h2>Stocks
+                    {% if stock_list >= 4 %}
+                     <button class="btn" id="refreshstocks" > New Stocks</button>
+                     {% endif %}
+                   </h2>
               </div>
               <div class="ticker-row" id="ticker-row">
                 <!--  This id added via javascript-->

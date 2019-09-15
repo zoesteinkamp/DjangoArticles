@@ -34,7 +34,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #131010;
   border: 1px solid #131010;
   padding-left:10px;
+  font-size: 20px;
 }
+
 
 .card, .article-content-inner, .ticker-row, .comment{
     background-color:#F7F3F0;
