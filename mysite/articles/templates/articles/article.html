@@ -46,6 +46,7 @@
                     {% endfor %}
                 </div>
             </section>
+
             <button class="btn" id="showcomment" >Add Comment</button>
             <div id="formarea">
               <h1>New comment</h1>
@@ -78,8 +79,11 @@
             </section>
             <section class="read-more-section">
                 <div class="block-title">
-                    <hr><h2>Read More</h2>
-                </div>
+                    <hr><h2>Read More
+                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Find more exciting articles at https://www.fool.com/">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                </h2></div>
                 <ul class="two-line-list">
                   {% for article in suggested_articles %}
                     <li><a  href="{% url 'articles:article' article.uuid %}">{{ article.headline }}</a></li>

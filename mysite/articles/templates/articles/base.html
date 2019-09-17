@@ -46,6 +46,11 @@ var stockstodisplay = []
 var a = "{{stock_list}}";
 var ticker = document.getElementById('ticker-row')
 
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
 if(a.length > 0){
     var stocks = JSON.parse('{{ stock_list | safe }}');
     console.log(stocks.length)
